@@ -388,7 +388,7 @@ export default function GeneratorPage() {
               <div className="space-y-8">
                 <SpotlightCard
                   className="custom-spotlight-card rounded-2xl border border-white/50 bg-white/70 backdrop-blur-lg p-6 shadow-lg"
-                  spotlightColor="rgba(59,130,246,0.12)"
+                  spotlightColor={`rgba(${59}, ${130}, ${246}, ${0.12})`}
                 >
                   <div className="mb-4 flex items-center gap-3">
                     <FileText className="h-6 w-6 text-gray-900" />
@@ -512,7 +512,7 @@ export default function GeneratorPage() {
               <div ref={flashcardsRef}>
                 <SpotlightCard
                   className="custom-spotlight-card rounded-2xl border border-white/50 bg-white/70 backdrop-blur-lg p-6 shadow-lg"
-                  spotlightColor="rgba(99,102,241,0.12)"
+                  spotlightColor={`rgba(${99}, ${102}, ${241}, ${0.12})`}
                 >
                   <div className="mb-4 flex items-center gap-3">
                     <BookOpen className="h-6 w-6 text-gray-900" />

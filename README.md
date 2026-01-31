@@ -57,7 +57,7 @@ npm install
 
 # Run locally
 npm run dev
-```bash
+```
 
 ## 📍 Deployment
 

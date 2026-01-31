@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SkillSpark
 
-## Getting Started
+**SkillSpark** is an AI-powered learning platform designed to help students **prepare for interviews and exams effectively**. With smart quizzes, flashcards, adaptive coaching, progress tracking, and gamification features, SkillSpark enables users to learn faster, retain more, and stay motivated. :contentReference[oaicite:1]{index=1}
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+SkillSpark offers a rich set of interactive learning tools:
+
+### 🔹 AI-Generated Smart Flashcards
+Adaptive flashcards help you memorize key concepts efficiently. :contentReference[oaicite:2]{index=2}
+
+### 🔹 Dynamic Practice Quizzes
+Unlimited quizzes tailored to your learning needs, with real-time feedback. :contentReference[oaicite:3]{index=3}
+
+### 🔹 BYOQ Coaching
+Paste or upload your own questions and get step-by-step AI-powered solutions and explanations. :contentReference[oaicite:4]{index=4}
+
+### 🔹 Gamification & Progress Tracking
+Earn XP, maintain streaks, unlock badges, and rise on the leaderboard while keeping track of your learning progress. :contentReference[oaicite:5]{index=5}
+
+### 🔹 Community & Leaderboards
+Compete with peers, see top performers, and join weekly learning challenges. :contentReference[oaicite:6]{index=6}
+
+---
+
+## 🧠 How It Works
+
+1. **Upload or Ask:** Select a topic or paste your own questions.  
+2. **Learn & Practice:** Personalized quizzes and flashcards help you master concepts.  
+3. **Track Progress:** Analyze your performance with analytics, streaks, and leaderboards. :contentReference[oaicite:7]{index=7}
+
+---
+
+## 🎯 Built For
+
+- Students preparing for coding interviews  
+- Learners aiming to revise faster with AI tools  
+- Anyone who wants adaptive, gamified learning experiences :contentReference[oaicite:8]{index=8}
+
+---
+
+## 📌 Installation & Development
+
+If this is your own project and you want to work on it locally, you can include these instructions:
 
 ```bash
+# Clone the repository
+git clone <your-repo-url>
+
+# Navigate into the folder
+cd skill-spark-seven
+
+# Install dependencies
+npm install
+
+# Run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📍 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- This project is deployed on Vercel — a platform for hosting modern web applications. It uses technologies like Next.js and React (assumed from deployment pattern).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Tech Stack (assumed typical stack)
 
-## Learn More
+- Next.js (React framework)
 
-To learn more about Next.js, take a look at the following resources:
+- React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Tailwind CSS / Custom CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Vercel for deployment
 
-## Deploy on Vercel
+##💡 Future Enhancements (optional)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- You can expand this section with ideas such as:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- User authentication & profiles
+
+- Personalized learning paths
+
+- Social sharing & study groups
+
+- Real-time notifications and reminders
+
+## 🧑‍💻 Author
+
+- Adithya
+- Aspiring Web Developer & AI Enthusiast
+
+## 🔗 Live Demo
+
+🌐 Visit: https://skill-spark-seven.vercel.app/

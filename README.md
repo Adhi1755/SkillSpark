@@ -1,95 +1,143 @@
-# 🚀 SkillSpark
+<div align="center">
 
-**SkillSpark** is an AI-powered learning platform designed to help students **prepare for interviews and exams effectively**. With smart quizzes, flashcards, adaptive coaching, progress tracking, and gamification features, SkillSpark enables users to learn faster, retain more, and stay motivated. :contentReference[oaicite:1]{index=1}
+# SkillSpark
 
----
+### AI-Powered Learning Platform for Interview & Exam Prep
 
-## 🌟 Features
+Built at **Hackverse** — adaptive quizzes, smart flashcards, BYOQ coaching, and gamified progress tracking in a single platform.
 
-SkillSpark offers a rich set of interactive learning tools:
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![GSAP](https://img.shields.io/badge/GSAP-3.13-88CE02?style=flat-square&logo=greensock&logoColor=white)](https://gsap.com)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://skill-spark-seven.vercel.app)
 
-### 🔹 AI-Generated Smart Flashcards
-Adaptive flashcards help you memorize key concepts efficiently. :contentReference[oaicite:2]{index=2}
+[**Live Demo →**](https://skill-spark-seven.vercel.app)
 
-### 🔹 Dynamic Practice Quizzes
-Unlimited quizzes tailored to your learning needs, with real-time feedback. :contentReference[oaicite:3]{index=3}
-
-### 🔹 BYOQ Coaching
-Paste or upload your own questions and get step-by-step AI-powered solutions and explanations. :contentReference[oaicite:4]{index=4}
-
-### 🔹 Gamification & Progress Tracking
-Earn XP, maintain streaks, unlock badges, and rise on the leaderboard while keeping track of your learning progress. :contentReference[oaicite:5]{index=5}
-
-### 🔹 Community & Leaderboards
-Compete with peers, see top performers, and join weekly learning challenges. :contentReference[oaicite:6]{index=6}
+</div>
 
 ---
 
-## 🧠 How It Works
+## Overview
 
-1. **Upload or Ask:** Select a topic or paste your own questions.  
-2. **Learn & Practice:** Personalized quizzes and flashcards help you master concepts.  
-3. **Track Progress:** Analyze your performance with analytics, streaks, and leaderboards. :contentReference[oaicite:7]{index=7}
+**SkillSpark** is a full-stack web application that helps students prepare for coding interviews and exams through AI-assisted tools. The platform combines adaptive flashcards, dynamic quiz generation, a BYOQ (Bring Your Own Questions) coaching mode, and a gamified leaderboard system — all in one cohesive workflow.
 
----
-
-## 🎯 Built For
-
-- Students preparing for coding interviews  
-- Learners aiming to revise faster with AI tools  
-- Anyone who wants adaptive, gamified learning experiences :contentReference[oaicite:8]{index=8}
+Built end-to-end during the **Hackverse hackathon**, the project demonstrates a production-grade Next.js 15 frontend with scroll-driven animations, real-time feedback loops, and a Recharts-powered analytics dashboard.
 
 ---
 
-## 📌 Installation & Development
+## Features
 
-If this is your own project and you want to work on it locally, you can include these instructions:
+### 🃏 Smart Flashcards
+Adaptive flashcards surface the concepts you're weakest on first, helping you memorize more in less time.
+
+### ⚡ Dynamic Quizzes
+Unlimited practice quizzes tailored to your chosen topic, with instant per-answer feedback so you learn from every attempt.
+
+### 💬 BYOQ Coaching (Bring Your Own Questions)
+Paste or upload your own questions and receive step-by-step AI-powered explanations — useful for mock interview prep or working through unfamiliar material.
+
+### 🏆 Gamification & Leaderboard
+Earn XP on every quiz, maintain daily streaks, unlock rank badges, and compete on a real-time leaderboard with weekly challenges and community rankings.
+
+### 📊 Progress Analytics
+A personal dashboard tracks your quiz history, accuracy trends, streak count, and XP gains over time using Recharts visualizations.
+
+---
+
+## How It Works
+
+```
+1. Upload or Ask   →  Select a topic or paste your own questions
+2. Learn & Practice →  Personalized flashcards + adaptive quizzes + instant feedback  
+3. Track Progress   →  Analytics dashboard, streaks, and leaderboard rankings
+```
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|---|---|
+| **Framework** | Next.js 15 (App Router, Turbopack) |
+| **Language** | TypeScript 5 |
+| **UI Library** | React 19 |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | GSAP 3.13 + ScrollTrigger, Framer Motion 12 |
+| **Charts** | Recharts 3 |
+| **File Input** | React Dropzone |
+| **Icons** | Lucide React, Tabler Icons |
+| **Deployment** | Vercel |
+
+---
+
+## Project Structure
+
+```
+SkillSpark/
+├── app/
+│   ├── components/
+│   │   └── Landing.tsx        # Main landing page (GSAP scroll animations)
+│   ├── layout.tsx             # Root layout with Geist font
+│   ├── page.tsx               # Entry point
+│   └── globals.css            # Global styles
+├── public/
+│   └── Dashboard.png          # Dashboard preview image
+├── next.config.ts
+├── tailwind.config.ts
+└── package.json
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm 9+
+
+### Installation
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-
-# Navigate into the folder
-cd skill-spark-seven
+git clone https://github.com/Adhi1755/SkillSpark.git
+cd SkillSpark
 
 # Install dependencies
 npm install
 
-# Run locally
+# Start the development server
 npm run dev
 ```
 
-## 📍 Deployment
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- This project is deployed on Vercel — a platform for hosting modern web applications. It uses technologies like Next.js and React (assumed from deployment pattern).
+### Available Scripts
 
-## 📚 Tech Stack (assumed typical stack)
+```bash
+npm run dev      # Start development server (Turbopack)
+npm run build    # Create production build
+npm run start    # Start production server
+```
 
-- Next.js (React framework)
+---
 
-- React
+## Demo
 
-- Tailwind CSS / Custom CSS
+🌐 **Live:** [skill-spark-seven.vercel.app](https://skill-spark-seven.vercel.app)
 
-- Vercel for deployment
+---
 
-##💡 Future Enhancements (optional)
+## Built At
 
-- You can expand this section with ideas such as:
+**Hackverse Hackathon** — developed as a full-stack demonstration of AI-integrated learning tools for students preparing for technical interviews and exams.
 
-- User authentication & profiles
+---
 
-- Personalized learning paths
+## Author
 
-- Social sharing & study groups
-
-- Real-time notifications and reminders
-
-## 🧑‍💻 Author
-
-- Adithya
-- Aspiring Web Developer & AI Enthusiast
-
-## 🔗 Live Demo
-
-🌐 Visit: https://skill-spark-seven.vercel.app/
+**Adithya Nagamuneendran**  
+B.Tech CSE (Data Science) — Dayananda Sagar University, Bangalore  
+[GitHub](https://github.com/Adhi1755) · [LinkedIn](https://linkedin.com/in/adithyanagamuneendran)
